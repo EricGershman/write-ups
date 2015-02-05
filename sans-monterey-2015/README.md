@@ -160,3 +160,4 @@ Bonus Answer: **Epoch Timestamp**
 
 ## Other write-ups and resources
 * https://blindseeker.com/blahg/?p=281
+* http://www.505forensics.com/having-fun-with-the-sans-network-forensics-challenge/
