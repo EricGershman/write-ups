@@ -1,7 +1,7 @@
 # SANS DFIR Monterey 2015 Network Forensics Challenge 
 The original challange was posted to: https://www.surveymonkey.com/s/BZMXTKM
 
-##Write-up
+## Write-up
 
 ### Question 1 
  > *1. Difficulty: Easy
@@ -25,7 +25,7 @@ The time difference is +4 from UTC, when adding 4 hours to 09:58:55 we get 13:58
 
 Answer: **2013-08-29 13:58:55**
 
-###Question 2 
+### Question 2 
  > *2. Difficulty: Easy
  
  > Evidence: nitroba.pcap
@@ -48,7 +48,7 @@ $ tcpdump -ennnr nitroba.pcap | grep -i "00:1f:f3:5a:77:9b" | grep IPv4 | grep 0
 Answer: **192.168.1.64, 169.254.90.183, 169.254.20.167**
 
 
-###Question 3
+### Question 3
  > *3. Difficulty: Medium
  
  > Evidence: ftp-example.pcap
@@ -72,7 +72,7 @@ E...;4@.@.I.......K.....J^.B,._....,.......
 
 Answer: **149.20.20.135.21 > 192.168.75.29.37028**
 
-###Question 4 
+### Question 4 
  > *4. Difficult: Medium
  
  > Evidence: nfcapd.201405230000 (requires nfdump v1.6.12. Note that nfcapd.201405230000.txt is the same data in nfdump’s “long” output format.)
@@ -86,7 +86,7 @@ $ egrep "63\.141\.241\.10\:22 " IVS-netflow-2014-05-23/nfcapd.201405230000.txt |
 
 Answer: **49**
 
-###Question 5 
+### Question 5 
  > *5. Difficulty: Hard
  
  > Evidence: stark-20120403-full-smb_smb2.pcap
@@ -95,7 +95,7 @@ Answer: **49**
  
 End of File: **13625 bytes**
 
-###Question 6 
+### Question 6 
  > *6. Difficulty: Very Hard
  
  > Evidence: snort.log.1340504390.pcap
